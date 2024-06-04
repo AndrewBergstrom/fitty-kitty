@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#intro {
+  text-align: center;
+}
+
+#gallery {
+  margin-top: 2rem;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container img {
+  margin: 0.5rem;
+  max-width: 200px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
